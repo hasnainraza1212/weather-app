@@ -1,0 +1,47 @@
+
+
+Thunderstrom colors 
+
+bg-color linear = 
+#5ac9fa + #79e4fe;
+
+mainbody color =
+#5ae0fe + #5acbf9;
+
+text and icon color = 
+#1a325e;
+
+
+futuer forcast box color = 
+
+#88d9fb;
+
+
+//--------------------------//
+hot theme colors
+
+bg-color linear = 
+
+#f4b17c + #f8c07f;
+
+mainbody color =
+
+#f9e177 + #ffbe94;
+
+
+text and icon color = 
+#1a325e;
+
+
+future forcast box color =
+
+#ffcda5
+
+
+// cloudy-theme //
+
+bg-color linear = 
+#59d8d6 + #6ae7e6;
+
+mainbody color =
+

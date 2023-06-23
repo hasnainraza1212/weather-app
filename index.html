@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" type="image/x-icon" href="./images/icons/title-img.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</head>
+
+<body>
+    <div class="loader" id="loader">
+        <div id="wifi-loader">
+            <svg class="circle-outer" viewBox="0 0 86 86">
+                <circle class="back" cx="43" cy="43" r="40"></circle>
+                <circle class="front" cx="43" cy="43" r="40"></circle>
+                <circle class="new" cx="43" cy="43" r="40"></circle>
+            </svg>
+            <svg class="circle-middle" viewBox="0 0 60 60">
+                <circle class="back" cx="30" cy="30" r="27"></circle>
+                <circle class="front" cx="30" cy="30" r="27"></circle>
+            </svg>
+            <svg class="circle-inner" viewBox="0 0 34 34">
+                <circle class="back" cx="17" cy="17" r="14"></circle>
+                <circle class="front" cx="17" cy="17" r="14"></circle>
+            </svg>
+            <div class="text" data-text="Updating"></div>
+        </div>
+        </div>
+
+    <main class="mainContainer storm-theme-bg">
+        <div class="innerContainer storm-theme-cont-bg" id="card">
+            <div class="header">
+                <div class="location"><img src="./images/location-pin.png" alt=""></div>
+                <div><input class="input" placeholder="Type your City" type="text" id="city-input"></div>
+                <div class="searchbtn" id="searchbtn"><i class="fa-solid fa-search"></i></div>
+            </div>
+            <div class="middlesection">
+                <div class="middlesectionImg">
+                    <img id="mainImg" src="./images/thunder-main.gif" alt="">
+                </div>
+            </div>
+            <div class="weather-details">
+                <div class="temp">
+                    <h2 id="currentTemperature">32°</h2>
+                </div>
+                <div class="city">
+                    <p id="cityName">karachi</p>
+                </div>
+                <div class="weather-type">
+                    <p id="weatherType">Thunderstorm!</p>
+                </div>
+                
+               
+                <div class="weather-more-details">
+                    <div class="wind">
+                        <img src="./images/icons/wind.png" alt="">
+                        <p class="windDetailsText" id="currentSpeed">10 km/h</p>
+                    </div>
+                    <div class="perp">
+                        <img src="./images/icons/drop.png" alt="" />
+                        <p class="windDetailsText" id="currentPrep">68 %</p>
+                    </div>
+                </div>
+            </div>
+            <div class="future-forcast">
+                <!-- <div class="forcast-box">
+
+                        <div class="time-div">9:00 PM</div>
+                    <div class="forcast-box-img"><img src="./images/icons/lightning.png" alt=""></div>
+                    <div class="forcast-box-temp">
+                        <h2>23 </h2><span>°</span>
+                    </div>
+                </div>
+                -->
+              
+            </div>
+        </div>
+    </main>
+    
+
+    <!-- scripts -->
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/b4fc311639.js" crossorigin="anonymous"></script>
+    <!-- scripts! -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/overlayscrollbars/css/OverlayScrollbars.min.css">
+<script src="https://cdn.jsdelivr.net/npm/overlayscrollbars/js/OverlayScrollbars.min.js"></script>
+</body>
+
+</html>
